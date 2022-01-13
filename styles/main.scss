@@ -9,7 +9,7 @@
 
 
 .note-card {
-    width: 600px;
+    width: 800px;
     margin: 100px auto 0 auto;
 }
 
@@ -22,7 +22,11 @@ ul {
 }
 @media (max-width: 800px) {
     .note-card {
-        width: 500px;
+        width: 400px;
         margin: 50px auto 0 auto; 
+    }
+
+    .note-form {
+        flex-direction: column;
     }
 }
